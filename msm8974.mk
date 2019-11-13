@@ -241,6 +241,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.oppo_msm8974
 
+# Tri-state keys
+PRODUCT_PACKAGES += \
+    KeyHandler
+
 # Trust HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
