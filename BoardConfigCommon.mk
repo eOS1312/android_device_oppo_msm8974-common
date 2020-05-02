@@ -114,6 +114,9 @@ TARGET_HW_DISK_ENCRYPTION := true
 # Exclude serif fonts for saving system.img size.
 EXCLUDE_SERIF_FONTS := true
 
+#Face_unlock
+TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK := true
+
 # Filesystem
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
