@@ -236,4 +236,7 @@
     <string name="config_SmartChargingSupspendValue" translatable="false">0</string>
     <string name="config_SmartChargingResumeValue" translatable="false">1</string>
 
+    <!--Enable the RingtonePickerActivity in 'com.android.providers.media'-->
+    <bool name="config_defaultRingtonePickerEnabled">true</bool>
+
 </resources>
